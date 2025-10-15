@@ -1,4 +1,8 @@
+PS: Create a folder called "server" and put all the files there.
+PS: Crie uma pasta antes chamada "server" e bote todos os arquivos
+
 ```markdown
+
 # Anime Login 🚀
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/seuusuario/anime-login?style=for-the-badge)
