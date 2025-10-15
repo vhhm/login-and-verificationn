@@ -1,35 +1,35 @@
-PS: Create a folder called "server" and put all the files there.
-PS: Crie uma pasta antes chamada "server" e bote todos os arquivos
+🇺🇸 | PS: Create a folder called "server" and put all the files there.
+
+🇧🇷 | PS: Crie uma pasta antes chamada "server" e bote todos os arquivos
 
 ```markdown
+<img src="" alt="Anime" width="600">
 
-# Anime Login 🚀
-
-![GitHub repo size](https://img.shields.io/github/repo-size/seuusuario/anime-login?style=for-the-badge)
-![GitHub language count](https://img.shields.io/github/languages/count/seuusuario/anime-login?style=for-the-badge)
-![GitHub top language](https://img.shields.io/github/languages/top/seuusuario/anime-login?style=for-the-badge)
-![License](https://img.shields.io/github/license/seuusuario/anime-login?style=for-the-badge)
+# Anime Login
 
 ---
 
 ## 🇧🇷 Descrição
 
-Este projeto é uma **página de autenticação moderna** com **login**, **registro** e **verificação por email**, usando **Node.js**, **Express**, **MongoDB**, **bcrypt** e **JWT**, com um frontend estilizado e animado com **partículas sobre um fundo de anime**.
+Projeto de **autenticação moderna** com:
+
+- **Login**, **Registro** e **Verificação por Email**
+- **Fundo de anime animado** com partículas flutuantes
+- **Popups de feedback** diretamente na tela
+- Redirecionamento automático após verificação para [https://xisde.fun](https://xisde.fun)
 
 💡 Funcionalidades:
 
 - Login com email e senha.
-- Registro de novas contas com hash de senha (bcrypt).
+- Registro com hash de senha (bcrypt).
 - Envio de código de verificação por email (Nodemailer).
-- Redirecionamento após verificação para um site externo (`https://xisde.fun/`).
-- Popups de mensagens diretamente na tela.
-- UI moderna e responsiva com efeitos de fade, blur e partículas animadas.
+- Interface moderna e responsiva com efeitos de fade, blur e partículas animadas.
 
 🛠 Tecnologias Utilizadas:
 
 - **Backend:** Node.js, Express, MongoDB, Mongoose, bcrypt, JWT, Nodemailer
-- **Frontend:** HTML5, CSS3, JavaScript (vanilla)
-- **Efeitos visuais:** Canvas para partículas, blur e animações CSS
+- **Frontend:** HTML5, CSS3, Vanilla JS
+- **Efeitos Visuais:** Canvas para partículas, blur e animações CSS
 - **Gerenciamento de ambiente:** dotenv
 
 ---
@@ -60,7 +60,7 @@ anime-login/
 
 ---
 
-## ⚙️ Instalação e Configuração
+## ⚙️ Instalação
 
 1. Clone o repositório:
 
@@ -75,22 +75,22 @@ cd anime-login
 npm install
 ```
 
-3. Crie um arquivo `.env` na raiz com as seguintes variáveis:
+3. Crie um arquivo `.env` na raiz com:
 
 ```
 PORT=3000
-MONGO_URI=sua_mongodb_uri
-JWT_SECRET=sua_chave_secreta
+MONGO_URI=SEU_MONGODB_URI
+JWT_SECRET=SUA_CHAVE_SECRETA
 EMAIL_HOST=smtp.gmail.com
 EMAIL_PORT=587
-EMAIL_USER=seu_email@gmail.com
-EMAIL_PASS=sua_senha_app
-FROM_NAME=SeuNome
-FROM_EMAIL=seu_email@gmail.com
+EMAIL_USER=SEU_EMAIL@gmail.com
+EMAIL_PASS=SUA_SENHA_DE_APP
+FROM_NAME=SEU_NOME
+FROM_EMAIL=SEU_EMAIL@gmail.com
 CODE_EXP_MIN=15
 ```
 
-> 🔒 Obs: Para Gmail, é necessário criar uma senha de app para Nodemailer.
+> 🔒 Para Gmail, crie uma **senha de app** no [Google Account > Security > App Passwords](https://myaccount.google.com/apppasswords).
 
 4. Inicie o servidor:
 
@@ -109,67 +109,46 @@ http://localhost:3000
 ## 📌 Uso
 
 1. **Login:** Digite seu email e senha.
-2. **Cadastro:** Clique em "Cadastre-se", preencha nome, email e senha.
-3. **Verificação:** Digite o código enviado para o email.
-4. Após verificação, você será redirecionado para `https://xisde.fun/`.
+2. **Cadastro:** Clique em "Cadastrar nova conta", informe nome, email e senha.
+3. **Verificação:** Digite o código enviado para seu email.
+4. Após verificação, você será redirecionado para [https://xisde.fun](https://xisde.fun).
 
 ---
 
 ## 📜 Licença
 
-Este projeto está sob a licença **MIT**.
+MIT License
 
 ---
 
 ## 🇺🇸 Description
 
-This project is a **modern authentication page** with **login**, **register**, and **email verification**, using **Node.js**, **Express**, **MongoDB**, **bcrypt**, and **JWT**, with a styled frontend animated with **particles over an anime background**.
+Modern authentication project with:
+
+* **Login**, **Register**, and **Email Verification**
+* **Animated anime background** with floating particles
+* **On-screen feedback popups**
+* Auto-redirect after verification to [https://xisde.fun](https://xisde.fun)
 
 💡 Features:
 
 * Login with email and password.
-* Register new accounts with password hashing (bcrypt).
+* Registration with hashed password (bcrypt).
 * Send verification code via email (Nodemailer).
-* Redirect after verification to external site (`https://xisde.fun/`).
-* Popups displayed directly on screen.
 * Modern responsive UI with fade, blur, and particle effects.
 
 🛠 Technologies Used:
 
 * **Backend:** Node.js, Express, MongoDB, Mongoose, bcrypt, JWT, Nodemailer
 * **Frontend:** HTML5, CSS3, Vanilla JS
-* **Visual effects:** Canvas particles, CSS blur and animations
-* **Environment management:** dotenv
-
----
-
-## ⚡ Project Structure
-
-```
-anime-login/
-│
-├─ server/
-│  ├─ server.js
-│  ├─ routes/auth.js
-│  ├─ models/User.js
-│  └─ utils/mailer.js
-│
-├─ public/
-│  ├─ index.html
-│  ├─ verify.html
-│  ├─ style.css
-│  └─ app.js
-│
-├─ .env
-├─ package.json
-└─ README.md
-```
+* **Visual Effects:** Canvas particles, CSS blur & animations
+* **Environment Management:** dotenv
 
 ---
 
 ## ⚙️ Setup
 
-1. Clone the repository:
+1. Clone the repo:
 
 ```bash
 git clone https://github.com/yourusername/anime-login.git
@@ -182,18 +161,18 @@ cd anime-login
 npm install
 ```
 
-3. Create a `.env` file with:
+3. Create a `.env` file:
 
 ```
 PORT=3000
-MONGO_URI=your_mongodb_uri
-JWT_SECRET=your_secret_key
+MONGO_URI=YOUR_MONGODB_URI
+JWT_SECRET=YOUR_SECRET_KEY
 EMAIL_HOST=smtp.gmail.com
 EMAIL_PORT=587
-EMAIL_USER=your_email@gmail.com
-EMAIL_PASS=app_password
-FROM_NAME=YourName
-FROM_EMAIL=your_email@gmail.com
+EMAIL_USER=YOUR_EMAIL@gmail.com
+EMAIL_PASS=APP_PASSWORD
+FROM_NAME=YOUR_NAME
+FROM_EMAIL=YOUR_EMAIL@gmail.com
 CODE_EXP_MIN=15
 ```
 
@@ -213,14 +192,14 @@ http://localhost:3000
 
 ## 📌 Usage
 
-1. **Login:** Enter email and password.
-2. **Register:** Click "Register", fill name, email, and password.
-3. **Verify:** Enter code sent to your email.
-4. After verification, you will be redirected to `https://xisde.fun/`.
+1. **Login:** Enter your email and password.
+2. **Register:** Click "Register", fill name, email and password.
+3. **Verify:** Enter the code sent to your email.
+4. After verification, you will be redirected to [https://xisde.fun](https://xisde.fun).
 
 ---
 
 ## 📜 License
 
-This project is licensed under the **MIT License**.
+MIT License
 ```
