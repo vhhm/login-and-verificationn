@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portal SPA Animado</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Canvas de partículas -->
+<canvas id="particles"></canvas>
+
+<div class="container">
+  <h1 id="title">Login</h1>
+
+  <!-- Login -->
+  <form id="loginForm" class="form-section active">
+    <input type="email" id="logEmail" placeholder="Email" required>
+    <input type="password" id="logPass" placeholder="Senha" required>
+    <button type="submit">Entrar</button>
+    <p class="switch-msg">Você não tem uma conta? <span id="toRegister">Cadastre-se</span></p>
+    <p id="loginMsg" class="msg"></p>
+  </form>
+
+  <!-- Registro -->
+  <form id="registerForm" class="form-section">
+    <input type="text" id="regName" placeholder="Nome" required>
+    <input type="email" id="regEmail" placeholder="Email" required>
+    <input type="password" id="regPass" placeholder="Senha" required>
+    <button type="submit">Cadastrar</button>
+    <p class="switch-msg"><span id="toLogin">Voltar ao login</span></p>
+    <p id="registerMsg" class="msg"></p>
+  </form>
+
+  <!-- Verificação -->
+  <form id="verifyForm" class="form-section">
+    <input type="hidden" id="verEmail">
+    <input type="text" id="verCode" placeholder="Código de verificação" required>
+    <button type="submit">Verificar</button>
+    <button type="button" id="btnResend" class="link-btn">Reenviar código</button>
+    <p id="verifyMsg" class="msg"></p>
+  </form>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
