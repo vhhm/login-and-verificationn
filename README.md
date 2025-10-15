@@ -1,4 +1,4 @@
-<img src="https://i.pinimg.com/736x/1f/5a/f9/1f5af90ea46a729fdd264c1e3a172f0c.jpg" alt="Anime" width="600">
+<img src="https://i.pinimg.com/1200x/cc/99/e4/cc99e40097e60d8164f5691cdcca0d9d.jpg" alt="Anime" width="600">
 
 🇺🇸 | PS: Create a folder called "server" and put all the files there.
 
@@ -205,3 +205,4 @@ http://localhost:3000
 
 MIT License
 ```
+<img src="https://i.pinimg.com/736x/a5/98/ad/a598ad37bfba1b9cd3c7fc1a885ada48.jpg" alt="Anime" width="600">
