@@ -3,7 +3,7 @@
 🇧🇷 | PS: Crie uma pasta antes chamada "server" e bote todos os arquivos
 
 ```markdown
-<img src="" alt="Anime" width="600">
+<img src="https://i.pinimg.com/736x/1f/5a/f9/1f5af90ea46a729fdd264c1e3a172f0c.jpg" alt="Anime" width="600">
 
 # Anime Login
 
