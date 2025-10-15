@@ -204,5 +204,5 @@ http://localhost:3000
 ## 📜 License
 
 MIT License
-```
+
 <img src="https://i.pinimg.com/736x/a5/98/ad/a598ad37bfba1b9cd3c7fc1a885ada48.jpg" alt="Anime" width="600">
